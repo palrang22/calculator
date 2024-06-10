@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         
-        let viewContoller = ViewController() // RootView 입니다
+        let viewContoller = Main() // RootView
         
         window?.rootViewController = viewContoller
         

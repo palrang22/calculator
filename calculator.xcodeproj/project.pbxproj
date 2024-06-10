@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7590B022C16911A00DB88EC /* CalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7590B012C16911A00DB88EC /* CalCollectionViewCell.swift */; };
 		E7CF2BAF2C12F73F00EA0317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CF2BAE2C12F73F00EA0317 /* AppDelegate.swift */; };
 		E7CF2BB12C12F73F00EA0317 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CF2BB02C12F73F00EA0317 /* SceneDelegate.swift */; };
-		E7CF2BB32C12F73F00EA0317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CF2BB22C12F73F00EA0317 /* ViewController.swift */; };
 		E7CF2BB82C12F74100EA0317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7CF2BB72C12F74100EA0317 /* Assets.xcassets */; };
 		E7CF2BBB2C12F74100EA0317 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E7CF2BBA2C12F74100EA0317 /* Base */; };
 		E7CF2BC42C1305A900EA0317 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CF2BC32C1305A900EA0317 /* Calculator.swift */; };
@@ -19,13 +19,17 @@
 		E7CF2BCC2C13064500EA0317 /* MultiplyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CF2BCB2C13064500EA0317 /* MultiplyOperation.swift */; };
 		E7CF2BCE2C13065600EA0317 /* DivideOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CF2BCD2C13065600EA0317 /* DivideOperation.swift */; };
 		E7CF2BD32C1322DF00EA0317 /* CalButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CF2BD22C1322DF00EA0317 /* CalButtons.swift */; };
+		E7CF2BD52C1679D700EA0317 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CF2BD42C1679D700EA0317 /* Main.swift */; };
+		E7CF2BD72C167C4200EA0317 /* NumButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CF2BD62C167C4200EA0317 /* NumButtons.swift */; };
+		E7CF2BD92C167CE600EA0317 /* OpButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CF2BD82C167CE600EA0317 /* OpButtons.swift */; };
+		E7CF2BDB2C167D6A00EA0317 /* EtcButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CF2BDA2C167D6A00EA0317 /* EtcButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7590B012C16911A00DB88EC /* CalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalCollectionViewCell.swift; sourceTree = "<group>"; };
 		E7CF2BAB2C12F73E00EA0317 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7CF2BAE2C12F73F00EA0317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7CF2BB02C12F73F00EA0317 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E7CF2BB22C12F73F00EA0317 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E7CF2BB72C12F74100EA0317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7CF2BBA2C12F74100EA0317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7CF2BBC2C12F74100EA0317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +40,10 @@
 		E7CF2BCB2C13064500EA0317 /* MultiplyOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyOperation.swift; sourceTree = "<group>"; };
 		E7CF2BCD2C13065600EA0317 /* DivideOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideOperation.swift; sourceTree = "<group>"; };
 		E7CF2BD22C1322DF00EA0317 /* CalButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalButtons.swift; sourceTree = "<group>"; };
+		E7CF2BD42C1679D700EA0317 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		E7CF2BD62C167C4200EA0317 /* NumButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumButtons.swift; sourceTree = "<group>"; };
+		E7CF2BD82C167CE600EA0317 /* OpButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpButtons.swift; sourceTree = "<group>"; };
+		E7CF2BDA2C167D6A00EA0317 /* EtcButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +76,11 @@
 		E7CF2BAD2C12F73E00EA0317 /* calculator */ = {
 			isa = PBXGroup;
 			children = (
-				E7CF2BCF2C1322B100EA0317 /* Layouts */,
-				E7CF2BC22C13057D00EA0317 /* Logics */,
 				E7CF2BAE2C12F73F00EA0317 /* AppDelegate.swift */,
 				E7CF2BB02C12F73F00EA0317 /* SceneDelegate.swift */,
-				E7CF2BB22C12F73F00EA0317 /* ViewController.swift */,
+				E7CF2BCF2C1322B100EA0317 /* Layouts */,
+				E7CF2BC22C13057D00EA0317 /* Logics */,
+				E7CF2BD42C1679D700EA0317 /* Main.swift */,
 				E7CF2BB72C12F74100EA0317 /* Assets.xcassets */,
 				E7CF2BB92C12F74100EA0317 /* LaunchScreen.storyboard */,
 				E7CF2BBC2C12F74100EA0317 /* Info.plist */,
@@ -97,6 +105,10 @@
 			isa = PBXGroup;
 			children = (
 				E7CF2BD22C1322DF00EA0317 /* CalButtons.swift */,
+				E7CF2BD62C167C4200EA0317 /* NumButtons.swift */,
+				E7CF2BD82C167CE600EA0317 /* OpButtons.swift */,
+				E7CF2BDA2C167D6A00EA0317 /* EtcButtons.swift */,
+				E7590B012C16911A00DB88EC /* CalCollectionViewCell.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -171,13 +183,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7CF2BB32C12F73F00EA0317 /* ViewController.swift in Sources */,
 				E7CF2BC82C13061900EA0317 /* AddOperation.swift in Sources */,
+				E7CF2BD52C1679D700EA0317 /* Main.swift in Sources */,
+				E7CF2BDB2C167D6A00EA0317 /* EtcButtons.swift in Sources */,
 				E7CF2BCA2C13062800EA0317 /* SubstractOperation.swift in Sources */,
 				E7CF2BCC2C13064500EA0317 /* MultiplyOperation.swift in Sources */,
+				E7CF2BD72C167C4200EA0317 /* NumButtons.swift in Sources */,
 				E7CF2BCE2C13065600EA0317 /* DivideOperation.swift in Sources */,
+				E7590B022C16911A00DB88EC /* CalCollectionViewCell.swift in Sources */,
 				E7CF2BC62C1305EF00EA0317 /* AbstractOperation.swift in Sources */,
 				E7CF2BD32C1322DF00EA0317 /* CalButtons.swift in Sources */,
+				E7CF2BD92C167CE600EA0317 /* OpButtons.swift in Sources */,
 				E7CF2BC42C1305A900EA0317 /* Calculator.swift in Sources */,
 				E7CF2BAF2C12F73F00EA0317 /* AppDelegate.swift in Sources */,
 				E7CF2BB12C12F73F00EA0317 /* SceneDelegate.swift in Sources */,
